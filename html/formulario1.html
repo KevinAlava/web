@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario venta de dominio</title>
+</head>
+
+<body>
+  <form action="https://script.google.com/macros/s/AKfycbwPncJAG-Xtm3QFIz29d7G7wKPE0jC0T8qpiShs54FHDJkgtIDd1IQdY_Lk2fsQ2kyVQQ/exec" method="post">
+    <h2>Contacto dominio</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required><br><br>
+
+    <h2>Contacto administrativo</h2>
+
+    <label for="nombre-admin">Nombre:</label>
+    <input type="text" id="nombre-admin" name="nombre-admin" required><br><br>
+
+    <label for="ciudad-admin">Ciudad:</label>
+    <input type="text" id="ciudad-admin" name="ciudad-admin" required><br><br>
+
+    <label for="organizacion-admin">Organización:</label>
+    <input type="text" id="organizacion-admin" name="organizacion-admin" required><br><br>
+
+    <label for="telefono-admin">Teléfono:</label>
+    <input type="text" id="telefono-admin" name="telefono-admin" required><br><br>
+
+    <label for="correo-admin">Correo:</label>
+    <input type="text" id="correo-admin" name="correo-admin" required><br><br>
+
+    <h2>Contacto técnico</h2>
+
+    <label for="nombre-tecnico">Nombre:</label>
+    <input type="text" id="nombre-tecnico" name="nombre-tecnico" required><br><br>
+
+    <label for="ciudad-tecnico">Ciudad:</label>
+    <input type="text" id="ciudad-tecnico" name="ciudad-tecnico" required><br><br>
+
+    <label for="telefono-tecnico">Teléfono:</label>
+    <input type="text" id="telefono-tecnico" name="telefono-tecnico" required><br><br>
+
+    <label for="correo-tecnico">Correo:</label>
+    <input type="text" id="correo-tecnico" name="correo-tecnico" required><br><br>
+
+    <label for="direccion-ip">Dirección IP:</label>
+    <input type="text" id="direccion-ip" name="direccion-ip" required><br><br>
+
+    <label for="nserver">Nserver:</label>
+    <select id="nserver" name="nserver" required>
+      <option value="Apache HTTP">Apache HTTP</option>
+      <option value="Internet Information Services">Internet Information Services</option>
+      <option value="Sun Java System Web Server">Sun Java System Web Server</option>
+      <option value="Nginx">Nginx</option>
+      <option value="LiteSpeed">LiteSpeed</option>
+      <option value="Cherokee">Cherokee</option>
+    </select><br><br>
+    <h2>Tipos de registro</h2>
+
+    <label for="tipo_registro_a">Registro tipo A:</label>
+    <input type="text" id="tipo_registro_a" name="tipo_registro_a" required><br><br>
+    <label for="tipo_registro_mx">Registro tipo MX:</label>
+    <input type="text" id="tipo_registro_mx" name="tipo_registro_mx" required><br><br>
+    <label for="tipo_registro_cname">Registro tipo CNAME:</label>
+    <input type="text" id="tipo_registro_cname" name="tipo_registro_cname" required><br><br>
+    <label for="tipo_registro_txt">Registro tipo TXT:</label>
+    <input type="text" id="tipo_registro_txt" name="tipo_registro_txt" required><br><br>
+    <label for="tipo_registro_ptr">Registro tipo PTR:</label>
+    <input type="text" id="tipo_registro_ptr" name="tipo_registro_ptr" required><br><br>
+    <label for="tipo_registro_ns">Registro tipo NS:</label>
+    <input type="text" id="tipo_registro_ns" name="tipo_registro_ns" required><br><br>
+
+    <label for="dominio">Dominio deseado:</label>
+    <select id="dominio" name="dominio" required>
+      <option value=".ec-registro">.ec-registro</option>
+      <option value=".com-registro">.com-registro</option>
+      <option value=".org-registro">.org-registro</option>
+      <option value=".onio-registro">.onion-registro</option>
+    </select><br><br>
+
+    <label>
+      <input type="checkbox" required>
+      Acepto los términos y condiciones
+    </label><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
